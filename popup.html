@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { font-family: Arial; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Defender</h1>
+  <p>Conexões de terceiros detectadas:</p>
+  <ul id="connections"></ul>
+
+  <p>Cookies de primeira parte: <span id="firstPartyCookies">0</span></p>
+  <p>Cookies de terceira parte: <span id="thirdPartyCookies">0</span></p>
+  
+  <p>Itens armazenados no localStorage: <span id="localStorageCount">0</span></p>
+  <p>Itens armazenados no sessionStorage: <span id="sessionStorageCount">0</span></p>
+  
+  <p id="fingerprintWarning" style="color: red;"></p>
+  
+  <p>Pontuação de Privacidade: <span id="privacyScore">100</span></p>
+
+  <script src="popup.js"></script>
+</body>
+</html>

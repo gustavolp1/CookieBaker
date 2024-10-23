@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "CookieBaker",
+    "version": "1.0",
+    "description": "Plugin para detectar conexões de terceiros, cookies e fingerprinting",
+    "permissions": [
+      "webRequest",
+      "webRequestBlocking",
+      "cookies",
+      "storage",
+      "http://*/",
+      "https://*/",
+      "activeTab"
+    ],
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "icons": {
+      "48": "icon.png"
+    },
+    "browser_action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
